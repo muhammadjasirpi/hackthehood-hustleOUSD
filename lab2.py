@@ -5,7 +5,7 @@ name = "Jasir Muhammad"
 name_lowercase = "jasir muhammad"
 name_halfuppercase = "Jasir muhammad"
 name_halflowercase = "jasir Muhammad"
-first_name = "Jasir"Add commentMore actions
+first_name = "Jasir"
 last_name = "Muhammad"
 
 ## step 2
@@ -26,7 +26,7 @@ favorite_thing = {"I love money", "I love food", "I love games", "I love books"}
 ## Variable Tester
 input_name = input("Enter name here:")
 if input_name == name or  input_name == name_lowercase or input_name == name_halfuppercase or input_name == name_halflowercase:
-    print("Welcome to the lab, " + first_name + "!")Add commentMore actions
+    print("Welcome to the lab, " + first_name + "!")
     input_nickname = input("Enter correct nickname here:")
     if input_nickname == nickname or input_nickname == nickname_lowercase:
         print("Nickname confirmed.")
