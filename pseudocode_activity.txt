@@ -1,0 +1,16 @@
+start
+1. Chose AM/PM  time
+2. Display message asking user when they want 
+   the alarm to be set
+3. Set alarm time
+4. Check if current timestamp is equal to the alarm time
+5. If yes then,
+5a Alarm audio plays
+5b Ask user "Do you want to press snooze or stop?"
+5b.1 If user selects snooze, then snooze for 5 minutes
+    once the 5 minutes are completed, the alarm audio plays
+    again and the user is prompted the same question as 5b.
+(loop)
+5b.2 If the user presses stop, then the program should end
+    If not, then 5b.1 should repeat.
+end
