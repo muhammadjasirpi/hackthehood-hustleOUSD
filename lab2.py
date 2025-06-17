@@ -21,7 +21,7 @@ Hobbies = ["gaming", "reading", "coding", "sports", "exercise"]
 ## step 6
 favorite_thing = {"I love money", "I love food", "I love games", "I love books"}
 
-## Tester
+## Variable Tester
 input_name = input("Enter name here:")
 if input_name == name or  input_name == name_lowercase or input_name == name_halfuppercase or input_name == name_halflowercase:
     print("Welcome to the lab, " + nickname + "!")
@@ -32,6 +32,8 @@ if input_name == name or  input_name == name_lowercase or input_name == name_hal
         if input_password == "password123":
             print("Access granted.")
             print(favorite_thing)
+        else:
+            print("Incorrect password. Access denied.")
     else:
         print("Age does not match. Access denied.")
 else:
