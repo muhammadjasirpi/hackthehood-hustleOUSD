@@ -11,6 +11,7 @@ last_name = "Muhammad"
 ## step 2
 nickname = "Sire"
 nickname_lowercase = "sire"
+
 ## step 3
 age = 14
 
@@ -35,7 +36,8 @@ if input_name == name or  input_name == name_lowercase or input_name == name_hal
             print("Age confirmed.")
             input_password = input("Tell me the password: ")
             if input_password == "password123":
-                print("Access granted.")
+                print("Access granted. Here is the stored information:")
+                print(Hobbies)
                 print(favorite_thing)
             else:
                 print("Incorrect password. Access denied.")
