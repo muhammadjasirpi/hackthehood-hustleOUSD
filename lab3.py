@@ -19,18 +19,17 @@ number_list.insert(0, 0)  # inserts 0 at the beginning of the list
 print(number_list)
 number_list.pop()
 print(number_list)  # removed the last element
-number_list.remove(12)  # removes the first occurrence of 12
+number_list.remove(12)  # removes 12
 print(number_list)
 
 #task 3: working with dictionaries
-
 
 books = {
     "George Orwell": "1984",
     "Jane Austen": "Pride and Prejudice",
     "J.K. Rowling": "Harry Potter and the Sorcerer's Stone",
     "F. Scott Fitzgerald": "The Great Gatsby"
-} # defines the dictionary with 4 key-value pairs
+} # defines the dictionary with 4 keys-values
 
 print("Authors:", list(books.keys())) #prints all keys
 
@@ -38,10 +37,8 @@ print("Book Titles:", list(books.values()))# prints all values
 
 print("Book by Jane Austen:", books.get("Jane Austen")) # get the value for a specific key
 
-
-books.pop("J.K. Rowling")
+books.pop(list(books.keys())[2]) 
 print(books) # removes the 3rd key-value pair
 
-
-del books["George Orwell"]
+del books[list(books.keys())[0]]
 print(books) #removes the 1st key-value pair
