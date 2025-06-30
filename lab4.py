@@ -21,7 +21,6 @@ while True:
     else:
         print("You are not eligible to vote.")
         input_age = input("Would you like to enter another age?: ")
-        break
 print("Thank you for participating in the voting poll!")
 
 print("Step 2") #Step 2
