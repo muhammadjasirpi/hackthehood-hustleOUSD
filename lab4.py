@@ -12,7 +12,7 @@ while True:
             input_exitprogram = input("Would you like to exit the program?(Waring: IF YOU CHOOSE YES THEN YOU WON'T CONTINUE THROUGH THE PROGRAM): ")
             if input_exitprogram == "yes" or input_exitprogram == "Yes":
                 print("Exiting the program. Thank you for participating!")
-                stop()
+                exit()
             else:
                 break
         else:
