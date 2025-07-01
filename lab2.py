@@ -22,10 +22,10 @@ used_python = True
 Hobbies = ["gaming", "reading", "coding", "sports", "exercise"]
 
 ## step 6
-favorite_thing = {"I love money", 
-"I love food", 
-"I love games", 
-"I love books"}
+favorite_thing = {"I love money": "Money is cool", 
+"I love food": "Food is great", 
+"I love games": "Games are fun", 
+"I love books": "Books are paper between two covers",}
 
 ## Variable Tester
 input_name = input("Enter name here:")
