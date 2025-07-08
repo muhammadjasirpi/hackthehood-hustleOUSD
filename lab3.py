@@ -2,9 +2,9 @@
 
 # task 1: working with strings
 food = 'bolognese'
-print(food[:5])  # prints first three characters
-print(food[-4:]) # prints last three characters
-first_last = food[0] + food[-1] #combines first and last character
+print(food[:3])   # prints first three characters
+print(food[-3:])  # prints last three characters
+first_last = food[0] + food[-1] # combines first and last character
 print(first_last)  
 food_list = food.split()
 print(food_list)
@@ -15,7 +15,7 @@ print(joined_food)
 number_list = [1,39109212, 81, 291, -712, 12, 2]
 number_list.append(100)  # adds 100 to the end of the list
 print(number_list)
-number_list.insert(0, 0)  # inserts 0 at the beginning of the list
+number_list.insert(3, 0)  # inserts 0 at the 3rd index
 print(number_list)
 number_list.pop()
 print(number_list)  # removed the last element
