@@ -50,7 +50,7 @@ def factorial(n):
         return n * factorial(n-1)
 print(factorial(5))
 
-# Code Snippet 9: logical error (condition always true)
+# Code Snippet 9: logical error (forgot name ==)
 name = input("Enter your name: ")
 if name == "Alice" or name == "Bob" or name == "bob" or name == "alice":
     print("Hello, " + name)
@@ -59,10 +59,8 @@ else:
 
 # Code Snippet 10: runtime error (ZeroDivisionError)
 def divide_numbers(x, y):
-    if y == 0:
-        return "Cannot divide by zero."
     result = x / y
     return result
 num1 = 10
-num2 = 0
+num2 = 5
 print(divide_numbers(num1, num2))
