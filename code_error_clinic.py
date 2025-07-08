@@ -1,11 +1,8 @@
 # Code Snippet 1: runtime error (ZeroDivisionError)
 x = 10
-y = 0
-if y != 0:
-    result = x / y
-    print("Result:", result)
-else:
-    print("Cannot divide by zero.")
+y = 2
+result = x / y
+print("Result:", result)
 
 # Code Snippet 2: runtime error (IndexError)
 numbers = [1, 2, 3, 4, 5]
