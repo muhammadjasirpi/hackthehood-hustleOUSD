@@ -14,12 +14,15 @@ class Hero:
 
     def add_ability(self, ability):
         self.abilities.append(ability)
+        print(f"{ability.name} added to {self.name}'s abilities.")
 
     def add_armor(self, armor):
         self.armors.append(armor)
+        print(f"{armor.name} added to {self.name}'s armors.")
 
     def add_weapon(self, weapon):
         self.abilities.append(weapon)
+        print(f"{weapon.name} added to {self.name}'s weapons.")
 
     def attack(self):
         total_damage = 0
